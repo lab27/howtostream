@@ -1,0 +1,189 @@
+/*red: F82847*/
+/*yellow: FDEC03*/
+/*dar: 21273D*/
+/*light blue: 54C6C6*/
+/*blue: 2C46B0*/
+/*beighe: */
+
+
+@font-face {
+  font-family: 'EagleLight';
+  src: url('../fonts/Eagle-Light.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Eagle-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Eagle-Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Eagle-Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Eagle-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Eagle-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'EagleBook';
+  src: url('../fonts/Eagle-Book.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Eagle-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Eagle-Book.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Eagle-Book.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Eagle-Book.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Eagle-Book.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+
+html,body {
+	-webkit-font-smoothing:antialiased;
+		font-family: 'EagleLight',helvetica, arial, sans-serif;
+
+}
+
+body {
+	color:#001c3a;
+}
+
+.full-width {
+	max-width: 90% !important;
+		padding:60px;
+		margin-top:96px;
+		border-top: 1px solid silver;
+
+}
+
+a {
+	color:#54C6C6;
+	transition: color .2s ease;
+}
+
+a:hover {
+	color:#2C46B0;
+}
+
+ul.description-anchors {
+	margin-top: 40px
+}
+
+ul.description-anchors li a {
+	font-size: 1.6875rem;
+	line-height: 1.4em;
+}
+
+ul.description-anchors li  {
+margin-left: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'EagleBook',helvetica,arial,sans-serif;
+	color:#001c3a;
+}
+
+h3 {
+	font-family: 'EagleLight';
+}
+
+.toc li {
+	/*border: 2px solid green;*/
+}
+
+.accordion .accordion-navigation > a, .accordion dd > a {
+	font-family: 'EagleBook',helvetica,arial,sans-serif;
+	color:#001c3a;
+	font-size: 1.4em;
+}
+
+.accordion .accordion-navigation, .accordion dd {
+	margin-bottom: 20px !important;
+}
+
+ul {
+	margin-left: 0;
+}
+
+.requirements {
+	text-align: center;
+	/*background: lemonchiffon;*/
+	padding: 20px;
+	/* Rectangle 213: */
+	/*background: rgba(84,198,198,0.10);*/
+	/*background: red;*/
+	/*background: #FDEC03;*/
+	min-height: 320px;
+}
+
+.req-content {
+	width: 100%;
+	height: 100%;
+	background: #FDEC03;
+	min-height: 300px;
+	padding: 10px 40px;
+}
+
+.optional {
+	/* Rectangle 213: */
+/*background: rgba(253,236,2,0.10);
+background: #FEF1DE*/
+}
+
+#tech-req {
+	background: #FEF1DE;
+	/* Rectangle 252: */
+background: rgba(32,39,60,0.03);
+}
+
+.requirements img {
+	max-height: 80px;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+
+.requirements p {
+	font-size: 1.1em;
+	line-height: 1.1em;
+	font-family: georgia, serif;
+	font-style: italic;
+	color:rgba(33,39,61,.6);
+}
+
+.section-title {
+	border:4px solid black;
+	width: auto !important;
+	margin:0 auto;
+}
+
+h5.section-subtitle {
+	font-family: 'EagleLight';
+	font-size: 3em;
+	margin-bottom: 40px;
+	margin-top: 80px;
+}
+
+.row {
+	max-width: 80rem;
+}
+
+.screenshot {
+	border: 1px solid rgba(0,0,0,.1);
+	padding: 20px;
+	/*font-family: 'EagleBook';*/
+}
+
+.screenshot img {
+	border:1px solid #54C6C6;
+}
+
+.screenshot .caption {
+	font-size: 1.2em;
+	line-height: 1.1em;
+	margin-top: 10px;
+}
+
+.label {
+	margin: 0 auto;
+	background: none;
+	color:inherit;
+	font-family: 'EagleBook';
+	font-size: 2em;
+	padding:12px;
+	line-height: 1.1em;
+}
+
+.panel.callout {
+	background: #FEF1DE;
+	border-color:#54C6C6;
+	margin-top: 20px;
+	font-size: 1.2em;
