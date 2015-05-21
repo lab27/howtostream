@@ -146,15 +146,11 @@ background: rgba(32,39,60,0.03);
 	color:rgba(33,39,61,.6);
 }
 
-.section-title {
-	border:4px solid black;
-	width: auto !important;
-	margin:0 auto;
-}
+
 
 h5.section-subtitle {
 	font-family: 'EagleLight';
-	font-size: 3em;
+	font-size: 2em;
 	margin-bottom: 40px;
 	margin-top: 80px;
 }
@@ -191,6 +187,13 @@ h5.section-subtitle {
 	line-height: 1.1em;
 }
 
+.section-title {
+	border:4px solid black;
+	width: auto !important;
+	margin:0 auto;
+	font-size: 1em;
+}
+
 .panel.callout {
 	background: #FDEC03;
 	border-color:#54C6C6;
@@ -198,7 +201,23 @@ h5.section-subtitle {
 	font-size: 1.2em;
 }
 
+.alert-box {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 1.4em;
+	padding: 40px;
+	margin-top: 40px;
+}
 
+.alert-box ul li {
+	margin-left: 20px;
+	font-size: 1.4em;
+}
+
+.alert-box .close {
+	top:20px;
+	right:15px;
+	font-size: 1.8em;
+}
 
 /*// Small screens*/
 @media only screen { } /* Define mobile styles */
@@ -225,6 +244,16 @@ h5.section-subtitle {
 .req-content {
 
 	min-height: 450px;
+}
+
+.section-title {
+
+	font-size: 2em;
+}
+
+h5.section-subtitle {
+	font-size: 3em;
+
 }
 
  } /* min-width 1025px, large screens */
