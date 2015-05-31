@@ -1,3 +1,3 @@
-## zf5_project
+## VR Support: How To Stream A Talk
 
-(place your readme here)
+This is a sandbox for an early Support doc for [Voice Republic](http://voicerepublic.com)
