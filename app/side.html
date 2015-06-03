@@ -17,11 +17,23 @@
     <!-- endbuild -->
   </head>
   <body>
+
+    <p class="panel screensize">
+  <strong class="show-for-small-only">small</strong>
+ <strong class="show-for-medium-only">medium</strong>
+        <strong class="show-for-large-only">large</strong>
+        <strong class="show-for-xlarge-only">xlarge</strong>
+        <strong class="show-for-xxlarge-up">xxlarge</strong>
+</p>
+
+
 <nav class="top-bar" data-topbar role="navigation">
   <ul class="title-area">
     <li class="name">
-      <h1><a href="#">VR</a></h1>
+      <h1><a href="#">VR</a>  
+       </h1>
     </li>
+
      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
     <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
   </ul>
@@ -29,6 +41,7 @@
   <section class="top-bar-section">
     <!-- Right Nav Section -->
     <ul class="right">
+      <li class="size"> </li>
       <li class="active"><a href="#">Support</a></li>
       <li class="has-dropdown">
         <a href="#">Nick Niles</a>
@@ -42,102 +55,120 @@
 
 
   </section>
-</nav>      <div class="row full-width hero">
- <div class="medium-8 columns">
-  <h5 class="breadcrumb"><a href="#">Voice Republic</a> > <a href="#">Support</a> > <a href="#">How To Stream</a></h5>
-  <h1>How To Stream A Live Talk</h1>
-      <h3>Whether you're planning to stream one Talk, or multiple stages, this document will guide you through the process. 
-  
-      </h3></div>
- </div>
+</nav>      
 
+<!-- HERO -->
+<div class="hero">
+  <div class="row">
+    <div class="large-8 columns">
+
+      <h5 class="breadcrumb"><a href="#">Voice Republic</a> > <a href="#">Support</a> > <a href="#">How To Stream</a>      
+
+       </h5>
+      <h1>How To Stream A Live Talk</h1>
+      <h3>Whether you're planning to stream one Talk, or multiple stages, this document will guide you through the process.</h3>
+    </div>
+  </div>
+</div>
+
+<!-- scroll container -->
  <section role="main" class="scroll-container">
     <div class="row">
-      <div class="large-3 medium-4 columns">
-        <div class="magellan-scrollnav">
-          <div data-magellan-expedition="fixed" data-options="threshold:0;destination_threshold:20;fixed_top:0">
+   
+<!-- subnav -->
+          <div class="large-4  columns right" id="sidebar" data-spy="affix" data-offset-top="370">
+        <!-- <div class="magellan-scrollnav"> -->
+          <div data-magellan-expedition data-options >
             <dl class="sub-nav">
               <dd data-magellan-arrival="tech-req" class=""><a href="#tech-req">Technical Requirements</a></dd>
-              <dd data-magellan-arrival="configure" class=""><a href="#configure">Step 1: Configure Audio</a></dd>
-              <dd data-magellan-arrival="configure1" class="subitem"><a href="#configure1">Optimal Setup</a></dd>
-              <dd data-magellan-arrival="configure2" class="subitem"><a href="#configure2">Alternative Setup</a></dd>
-              <dd data-magellan-arrival="test" class=""><a href="#test">Step 2: Test Talk</a></dd>
-              <dd data-magellan-arrival="create" class=""><a href="#create">Step 3: Create A Talk</a></dd>
-              <dd data-magellan-arrival="operate" class=""><a href="#operate">Step 4: Operate Live Talk</a></dd>
+              <dd data-magellan-arrival="configure" class=""><a href="#configure"><span class="show-for-large-up">Step </span>1: Configure Audio</a></dd>
+              <dd data-magellan-arrival="test" class=""><a href="#test"><span class="show-for-large-up">Step </span> 2: Test Talk</a></dd>
+              <dd data-magellan-arrival="create" class=""><a href="#create"><span class="show-for-large-up">Step </span> 3: Create A Talk</a></dd>
+              <dd data-magellan-arrival="operate" class=""><a href="#operate"><span class="show-for-large-up">Step </span> 4: Operate Live Talk</a></dd>
 
             </dl>
           </div>
-        </div>
+        <!-- </div> -->
+
+
       </div>
 
-      <div class="large-9 medium-8 columns">
-        <h2 class="label section-title" id="tech-req" data-magellan-destination="tech-req">Technical Requirements</h2>
+<!-- Main content -->
+      <div class="large-8 columns left">
+
+
+<div class="row section">        <h2 class="section-title" id="tech-req" data-magellan-destination="tech-req">Technical Requirements</h2>
+         <hr>
         <p><a name="tech-req"></a></p>
 <h5 class="section-subtitle">To stream a Talk, you need 5 things: </h5>
+
+
+
+<div data-equalizer>
+
+  <div class="large-4 columns panel req" data-equalizer-watch>
+    <img src="images/laptop.svg">
+    <h5 class="caption">1. Computer</h5>
+    <p>Either a Laptop or a Desktop computer, running a current version of Chrome or Firefox, with the latest version of Flash Player installed.</p>
+  </div>
+
+    <div class="large-4 columns panel req" data-equalizer-watch>
+    <img src="images/network.svg">
+    <h5 class="caption">2. Internet</h5>
+    <p>A stable connection is needed throughout the Talk. Preferably a LAN connection with at least 50Kb (kilobits per second) upload.</p>
+  </div>
+
+    <div class="large-4 columns panel req" data-equalizer-watch>
+    <img src="images/mic.svg">
+    <h5 class="caption">3. Audio Source</h5>
+    <p>En external microphone connected to a mixer and an audio interface is highly recommended for optimal sound quality. For more information about the audio setup, refer to <a href="#configure">Step 1</a> (below).</p>
+  </div>
+</div>
+<div data-equalizer>
+
+    <div class="large-4 columns panel req" data-equalizer-watch>
+    <img src="images/headphone.svg">
+    <h5 class="caption">4. Headphones</h5>
+    <p>Either a Laptop or a Desktop computer, running a current version of <a href="https://www.google.com/chrome/browser/desktop/" target="_blank">Chrome</a> or <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">Firefox</a>, with the latest version of Flash Player installed.</p>
+  </div>
+
+    <div class="large-4 columns panel req end" data-equalizer-watch>
+    <img src="images/user.svg">
+    <h5 class="caption">5. Operator</h5>
+    <p>Either a Laptop or a Desktop computer, running a current version of Chrome or Firefox, with the latest version of Flash Player installed.</p>
+  </div>
+
+</div></div>
+
+
  
-       <ul class="large-block-grid-3 medium-block-grid-2">
-   <li class="requirements">
- 
-     <div class="req-content">  <img src="images/laptop.svg">
-          <h5 class="caption">1. Computer</h5>
-          <p>Either a Laptop or a Desktop computer, running a current version of Chrome or Firefox, with the latest version of Flash Player installed.</p></div>
-  
-  </li>
-    <li class="requirements">
- 
-      <div class="req-content"> <img src="images/network.svg">
-           <h5 class="caption">2. Internet</h5>
-                <p>A stable connection is needed throughout the Talk. Preferably a LAN broadband connection with at least 50Kb upload.</p></div>
- 
-  </li>
-    <li class="requirements">
- 
- <div class="req-content">      
-     <img src="images/mic.svg">
-      <h5 class="caption">3. Audio Source</h5>
-           <p>An external microphone connected to a mixer and an audio interface is highly recommended for optimal sound quality.
-         </p></div>
- 
-  </li>
-    <li class="requirements optional">
- 
-      <div class="req-content"> <img src="images/headphone.svg">
-           <h5 class="caption">4. Headphones</h5>
-           <p>(Recommended) Needed in order to check the sound quality of the stream.</p></div>
-  </li>
-    <li class="requirements optional">
- 
-     <div class="req-content">  <img src="images/user.svg">
-          <h5 class="caption">5. Stream Operator</h5>
-          <p>(Recommended) When the speaker is not near the computer, an additional person is recommended to start and end the Talk.</p></div>
-  </li>
- </ul>
- <hr>
+
+
         
-      <h2 class="label section-title" id="configure" data-magellan-destination="configure">Step 1: Configure Audio</h2>
- 
-     
-            <h5 class="section-subtitle" id="configure1" data-magellan-destination="configure1">Optimal Audio Setup: </h5>
- 
- <img data-interchange="[images/signalflow/signalflow_recommended-small.png, (default)], [images/signalflow/signalflow_recommended-large.png, (large)], [images/signalflow/signalflow_recommended-wide.png, (xlarge)]">
- 
- 
-            <h5 class="section-subtitle">Alternative Audio Setups: </h5>
- 
- <p class="panel">Under Construction</p>
-        <!-- <img src="images/signalflow/signalflow_recommended-wide.png"> -->
+      <div class="row section"><h2 class="section-title" id="configure" data-magellan-destination="configure">Step 1: Configure Audio</h2>
+        <hr>
+       
+           
+                  <h5 class="section-subtitle" id="configure1" data-magellan-destination="configure1">Optimal Audio Setup: </h5>
+       
+       <img data-interchange="[images/signalflow/signalflow_recommended-small.png, (default)], [images/signalflow/signalflow_recommended-large.png, (large)], [images/signalflow/signalflow_recommended-wide.png, (xlarge)]">
+       
+       
+                  <h5 class="section-subtitle">Alternative Audio Setups: </h5>
+       
+       <p class="panel">Under Construction</p>
+              <!-- <img src="images/signalflow/signalflow_recommended-wide.png"> --></div>
 
 
 
         <hr>
          <div class="row"> <div class="large-9 columns">
-        <h2 class="label section-title" id="test" data-magellan-destination="test">Step 2: Conduct A Test Talk</h2>
-            <p class="panel callout description"><strong>Note:</strong> It's a very good idea to conduct a Test Talk before going LIVE with a Talk or lineup of Talks. With a Test Talk you can ensure that your signal flow is functioning correctly, and that the sound quality is up to desirable standards.</p>
+        <h2 class="section-title" id="test" data-magellan-destination="test">Step 2: Conduct A Test Talk</h2>
+            <blockquote><strong>Note:</strong> It's a very good idea to conduct a Test Talk before going LIVE with a Talk or lineup of Talks. With a Test Talk you can ensure that your signal flow is functioning correctly, and that the sound quality is up to desirable standards.</blockquote>
         </div></div>
  
          <h5 class="section-subtitle">Follow These Steps To Conduct a Test Talk: </h5>
-       <div class="row">  
-        <div class="large-9 columns"> <p class="panel callout description"><strong>Note:</strong> Make sure you've configured your audio gear according to <a href="#configure">Step 1</a>.</p></div></div>
+    <blockquote>(Make sure you've configured your audio gear according to <a href="#configure">Step 1</a>.)</blockquote>
  
          <!-- screenshots -->
          <div class="screenshot">
@@ -207,7 +238,10 @@
          </div>
 
  <p class="panel callout description">The Test Talk will automatically be deleted after 24 hours.</p>
+
       </div>
+
+    </div>
   </section>
 
 
@@ -238,7 +272,24 @@
     <script src="bower_components/foundation/js/foundation/foundation.topbar.js"></script>
     <!-- endbuild -->
     <!-- build:js js/app.min.js -->
+    <script src="js/affix.js"></script>
     <script src="js/app.js"></script>
     <!-- endbuild -->
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+          $("#sidebar").affix({
+              offset: { 
+                  top: 370 
+              }
+          });
+      });
+
+//       $(document).ready(function(){
+//     $("#sidebar").on('affixed.bs.affix', function(){
+//         alert("The navigation menu has been affixed. Now it doesn't scroll with the page.");
+//     });
+// });
+</script>
   </body>
 </html>
