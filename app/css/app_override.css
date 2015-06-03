@@ -150,7 +150,11 @@ ul {
 	max-height: 60px;
 	margin-bottom: 30px;
 	margin-top: 40px;
-	max-width: 80px;
+	/*max-width: 80px;*/
+}
+
+.req h5 {
+	color:#2C46B0;
 }
 
 .req p {
@@ -161,11 +165,15 @@ ul {
 }
 
 .req p {
-	color: #21273D
+	color: #2C46B0;
 }
 
 .req a {
-	color: #2C46B0;
+	color: #21273D;
+}
+
+.req a:hover {
+	text-decoration: underline;
 }
 
 h5.section-subtitle {
