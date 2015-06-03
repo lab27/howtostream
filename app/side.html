@@ -17,35 +17,65 @@
     <!-- endbuild -->
   </head>
   <body>
+<nav class="top-bar" data-topbar role="navigation">
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="#">VR</a></h1>
+    </li>
+     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li class="active"><a href="#">Support</a></li>
+      <li class="has-dropdown">
+        <a href="#">Nick Niles</a>
+        <ul class="dropdown">
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Profile</a></li>
+          <li class=""><a href="#">Account</a></li>
+        </ul>
+      </li>
+    </ul>
 
 
-    
-
-<!-- <p class="panel screensize">
-  <strong class="show-for-small-only">This text is shown only on a small screen.</strong>
-  <strong class="show-for-medium-only">This text is shown only on a medium screen.</strong>
-  <strong class="show-for-large-only">This text is shown only on a large screen.</strong>
-  <strong class="show-for-xlarge-only">This text is shown only on an xlarge screen.</strong>
-  <strong class="show-for-xxlarge-up">This text is shown on xxlarge screens and up.</strong>
-</p> -->
-
-  <div class="row full-width hero">
-
-     <div class="medium-8 large-8 columns"><h1>How To Stream A Live Talk</h1>
-          <h3>Whether you're planning to stream one Talk, or multiple stages, this documents will guide you through the process. 
-           </h3></div>
+  </section>
+</nav>      <div class="row full-width hero">
+ <div class="medium-8 columns">
+  <h5 class="breadcrumb"><a href="#">Voice Republic</a> > <a href="#">Support</a> > <a href="#">How To Stream</a></h5>
+  <h1>How To Stream A Live Talk</h1>
+      <h3>Whether you're planning to stream one Talk, or multiple stages, this document will guide you through the process. 
+  
+      </h3></div>
  </div>
 
+ <section role="main" class="scroll-container">
+    <div class="row">
+      <div class="large-3 medium-4 columns">
+        <div class="magellan-scrollnav">
+          <div data-magellan-expedition="fixed" data-options="threshold:0;destination_threshold:20;fixed_top:0">
+            <dl class="sub-nav">
+              <dd data-magellan-arrival="tech-req" class=""><a href="#tech-req">Technical Requirements</a></dd>
+              <dd data-magellan-arrival="configure" class=""><a href="#configure">Step 1: Configure Audio</a></dd>
+              <dd data-magellan-arrival="configure1" class="subitem"><a href="#configure1">Optimal Setup</a></dd>
+              <dd data-magellan-arrival="configure2" class="subitem"><a href="#configure2">Alternative Setup</a></dd>
+              <dd data-magellan-arrival="test" class=""><a href="#test">Step 2: Test Talk</a></dd>
+              <dd data-magellan-arrival="create" class=""><a href="#create">Step 3: Create A Talk</a></dd>
+              <dd data-magellan-arrival="operate" class=""><a href="#operate">Step 4: Operate Live Talk</a></dd>
 
- <div class="medium-8 columns"> 
+            </dl>
+          </div>
+        </div>
+      </div>
 
+      <div class="large-9 medium-8 columns">
+        <h2 class="label section-title" id="tech-req" data-magellan-destination="tech-req">Technical Requirements</h2>
+        <p><a name="tech-req"></a></p>
+<h5 class="section-subtitle">To stream a Talk, you need 5 things: </h5>
  
- <!-- tech req -->
- <div class="row" id="tech-req" data-magellan-destination="tech-req">      
- <h2 class="label section-title">Technical Requirements</h2>
-     <h5 class="section-subtitle">To stream a Talk, you need 5 things: </h5>
- 
-       <ul class="large-block-grid-5 medium-block-grid-3">
+       <ul class="large-block-grid-3 medium-block-grid-2">
    <li class="requirements">
  
      <div class="req-content">  <img src="images/laptop.svg">
@@ -82,16 +112,12 @@
           <p>(Recommended) When the speaker is not near the computer, an additional person is recommended to start and end the Talk.</p></div>
   </li>
  </ul>
- 
- </div>
- 
- 
- <!-- configure -->
-  <div class="row " id="configure" data-magellan-destination="configure">
-        <h2 class="label section-title">Step 1: Configure Audio Gear</h2>
+ <hr>
+        
+      <h2 class="label section-title" id="configure" data-magellan-destination="configure">Step 1: Configure Audio</h2>
  
      
-            <h5 class="section-subtitle">Optimal Audio Setup: </h5>
+            <h5 class="section-subtitle" id="configure1" data-magellan-destination="configure1">Optimal Audio Setup: </h5>
  
  <img data-interchange="[images/signalflow/signalflow_recommended-small.png, (default)], [images/signalflow/signalflow_recommended-large.png, (large)], [images/signalflow/signalflow_recommended-wide.png, (xlarge)]">
  
@@ -100,37 +126,38 @@
  
  <p class="panel">Under Construction</p>
         <!-- <img src="images/signalflow/signalflow_recommended-wide.png"> -->
- 
-      </div>
-  
- 
- 
- 
- <!-- Test talk -->
- <div class="row " id="test-talk">
-    <div class="row"> <div class="large-4 columns">
-        <h2 class="label section-title">Step 2: Conduct A Test Talk</h2>
+
+
+
+        <hr>
+         <div class="row"> <div class="large-9 columns">
+        <h2 class="label section-title" id="test" data-magellan-destination="test">Step 2: Conduct A Test Talk</h2>
             <p class="panel callout description"><strong>Note:</strong> It's a very good idea to conduct a Test Talk before going LIVE with a Talk or lineup of Talks. With a Test Talk you can ensure that your signal flow is functioning correctly, and that the sound quality is up to desirable standards.</p>
         </div></div>
  
          <h5 class="section-subtitle">Follow These Steps To Conduct a Test Talk: </h5>
-         
-  <p class="panel callout description"><strong>Note:</strong> Make sure you've configured your audio gear according to <a href="#configure">Step 1</a>.</p>
+       <div class="row">  
+        <div class="large-9 columns"> <p class="panel callout description"><strong>Note:</strong> Make sure you've configured your audio gear according to <a href="#configure">Step 1</a>.</p></div></div>
  
          <!-- screenshots -->
          <div class="screenshot">
+          <p class="screenshot-title">1. Test A Talk</p>
            <img src="images/testtalk/testtalk01.jpg">
-           <p class="caption">1. From your profile drop-down menu, select "Test A Talk (Free)"</p>
+           <p class="caption">From your profile drop-down menu, select "Test A Talk (Free)"</p>
          </div>
  
          <div class="screenshot">
+                    <p class="screenshot-title">2. Invite A Friend</p>
+
            <img src="images/testtalk/testtalk02.jpg">
-           <p class="caption">2. All the fields will be automatically filled out with randomly generated text. If you'd like someone to listen to your Test Talk while it streams live (recommended), they must be invited to the Talk. Begin typing their name or username in the "Invite guests" field and then select their name from the drop-down menu.</p>
+           <p class="caption">All the fields will be automatically filled out with randomly generated text. If you'd like someone to listen to your Test Talk while it streams live (recommended), they must be invited to the Talk. Begin typing their name or username in the "Invite guests" field and then select their name from the drop-down menu.</p>
          </div>
  
                  <div class="screenshot">
+                            <p class="screenshot-title">3. Save</p>
+
            <img src="images/testtalk/testtalk03.jpg">
-           <p class="caption">3. Click "Save."</p>
+           <p class="caption">Click "Save."</p>
          </div>
  
                  <div class="screenshot">
@@ -180,30 +207,9 @@
          </div>
 
  <p class="panel callout description">The Test Talk will automatically be deleted after 24 hours.</p>
- 
- </div>
- 
- <!-- create talk -->
-  <div class="row " id="create-talk">
-    <div class="row"> <div class="large-4 columns">
-        <h2 class="label section-title">Step 3: Create Talk</h2>
- 
-        </div></div>
-  </div>
- 
- 
- 
- 
- 
- <!-- operate -->
-  <div class="row " id="operate">
-    <div class="row"> <div class="large-4 columns">
-        <h2 class="label section-title">Step 4: Operate the Talk</h2>
- 
-        </div></div>
-  </div>
+      </div>
+  </section>
 
-  </div>
 
     <!-- build:js js/vendor/libraries.min.js -->
     <!-- bower:js -->
