@@ -19,7 +19,7 @@
 @font-face {
   font-family: 'EagleBook';
   src: url('../fonts/Eagle-Book.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/Eagle-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  src: url('../fonts/Eagle-Book.eot?#iefix') format('embedded-opentype'),
        url('../fonts/Eagle-Book.woff2') format('woff2'), /* Super Modern Browsers */
        url('../fonts/Eagle-Book.woff') format('woff'), /* Pretty Modern Browsers */
        url('../fonts/Eagle-Book.ttf')  format('truetype'), /* Safari, Android, iOS */
@@ -47,6 +47,10 @@ html,body {
 
 body {
 	color:#001c3a;
+}
+
+.scroll-container {
+	padding-left: 20px;
 }
 
 .row.section {
@@ -82,10 +86,27 @@ body {
 .hero {
 	/*margin-top: 0;*/
 	margin-bottom: 60px;
-	background: #fef1de;
+	background: #2C46B0;
 	border-top:0;
 	padding-top: 40px;
 	padding-bottom:40px;
+	color:#fff;
+}
+
+.hero h1, .hero h3 {
+	color: #fff;
+}
+
+.hero h3 {
+	opacity: .5
+}
+
+.hero a:hover {
+	color: #fff;
+}
+
+img.outline {
+	border:1px solid #eee;
 }
 
 
@@ -139,7 +160,13 @@ ul {
 	font-family: 'Baskerville';
 }
 
+.req p {
+	color: #21273D
+}
 
+.req a {
+	color: #2C46B0;
+}
 
 h5.section-subtitle {
 	font-family: 'EagleLight';
@@ -268,6 +295,9 @@ h5.section-subtitle {
 	display: none;
 }
 
+.affix-top {
+	display: block;
+}
 
 
 /*// Small screens*/
@@ -295,7 +325,7 @@ h5.section-subtitle {
 
 h5.section-subtitle {
 	font-size: 1.5em;
-	margin:40px 0;
+	/*margin:40px 0;*/
 
 }
 
@@ -335,4 +365,5 @@ h5.section-subtitle {
 	right: 180px;
 }
 
-} /* min-width 1921px, xxlarge screens 
+} 
+/* min-width 1921px, xxlarge screens 
