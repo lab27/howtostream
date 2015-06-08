@@ -4,6 +4,7 @@
 /*light blue: 54C6C6*/
 /*blue: 2C46B0*/
 /*beighe: fef1de*/
+/*purple: a339cd*/
 
 
 @font-face {
@@ -80,8 +81,8 @@ body {
 	margin-bottom: 60px;
 	background: #2C46B0;
 	border-top:0;
-	padding-top: 40px;
-	padding-bottom:40px;
+	padding-top: 48px;
+	padding-bottom:48px;
 	color:#fff;
 }
 
@@ -90,7 +91,8 @@ body {
 }
 
 .hero h3 {
-	opacity: .5
+	opacity: .5;
+	line-height:1.2em;
 }
 
 .hero a:hover {
@@ -109,8 +111,12 @@ a {
 
 a:hover {
 	color:#2C46B0;
+	text-decoration: underline;
 }
 
+.top-bar a:hover {
+	text-decoration: none;
+}
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'EagleBook',helvetica,arial,sans-serif;
@@ -159,7 +165,7 @@ ul {
 
 
 .req a, .legend a {
-	color: #21273D;
+	color: #a339cd;
 }
 
 .req a:hover, .legend a:hover {
@@ -194,6 +200,8 @@ ul {
 
 h5.section-subtitle {
 	font-family: 'EagleLight';
+	line-height: 1.2em;
+	margin-bottom: 24px;
 	/*font-size: 1.2em;*/
 }
 
@@ -297,6 +305,30 @@ img.outline {
 .sub-nav dd.active.subitem a {
 	margin-left: 20px;
 }*/
+
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+	background: #F82847;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background: #21273D;
+}
+
+.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
+	background: #fff;
+	color: #21273D;
+}
+
+.top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button){
+	background: #54C6C6;
+	background-color: #54C6C6;
+	color:#21273D;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button):hover {
+	background: #F82847;
+}
+
 
 .sub-nav dd {
 	width: 100%;
